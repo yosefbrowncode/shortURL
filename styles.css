@@ -14,7 +14,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: hsl(0, 0%, 58%) !important;
+    color: hsl(0, 0%, 58%) 
 }
 
 .signUpBtn{
@@ -60,4 +60,8 @@
     color: white;
     border-radius: 40px;
     border: none;
+}
+
+.footerBottom{
+    background-color: hsl(255, 11%, 22%) !important;
 }
