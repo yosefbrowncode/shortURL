@@ -15,10 +15,10 @@
     <title>URL Shortening</title>
   </head>
   <body>
-      <div class="container-fluid">
+      <div class="container-fluid g-0" >
 
 
-      <div class="container">
+      <div class="container mb-5 ">
         <nav
         class="navbar navbar-expand-lg navbar-light bg-light navColor mt-4"
       >
@@ -70,20 +70,52 @@
           </div>
       </div>
       </div>
-      <nav class="navbar fixed-bottom navbar-light bg-light footerBottom">
-        <div class="container mt-4 justify-content-between">
+      
+      <!-- Bottom Grey Container -->
+      <div class="container-fluid bottomContainer vh-100">
+          <div class="container">
+            <div class="card cardShort border-0">
+                <div class="card-body h-100 ">
+                    <div class="row d-flex justify-content-center h-100">
+                        <div class="col-9 my-auto
+                        ">
+                          <input class="form-control form-control-lg shortForm " type="text" placeholder="Shorten a link here" aria-label=".form-control-lg example">
+                        </div>
+                        <div class="col-2 my-auto">
+                          <button type="button" class="btn btn-primary w-100 shortBtn">Shorten it!</button>
+                        </div>
+
+                    </div>
+          
+                </div>
+              </div>
+
+          </div>
+      </div>
+      <nav class="navbar sticky-bottom navbar-light bg-light footerBottom">
+        <div class="container mt-5 justify-content-between mb-5">
             <div class="row w-100 justify-content-between">
             <div class="col-4">
-                <a   class="navbar-brand headerText text-white" href="#">Shortly</a>
+                <a   class="navbar-brand headerText text-white " href="#">Shortly</a>
             </div>
             <div class="col-2">
-                <a class="nav-link subHeadText text-white"    aria-current="page" href="#">Features</a>
+                <a class="nav-link subHeadText text-white fw-bolder ps-0"    aria-current="page" href="#">Features</a>
+                <p class="subHeadText mt-4">Link Shortening</p>
+                <p class="subHeadText ">Branding Links</p>
+                <p class="subHeadText ">Analytics</p>
             </div>
             <div class="col-2">
-                <a class="nav-link subHeadText text-white" href="#">Pricing</a>
+                <a class="nav-link subHeadText text-white fw-bolder ps-0" href="#">Pricing</a>
+                <p class="subHeadText mt-4">Blog</p>
+                <p class="subHeadText ">Developers</p>
+                <p class="subHeadText ">Support</p>
             </div>
             <div class="col-2">
-                <a class="nav-link subHeadText text-white" href="#">Resources</a>
+                <a class="nav-link subHeadText text-white fw-bolder ps-0" href="#">Resources</a>
+                <p class="subHeadText mt-4">About</p>
+                <p class="subHeadText ">Our Team</p>
+                <p class="subHeadText ">Careers</p>
+                <p class="subHeadText ">Contact</p>
             </div>
             <div class="col-2 d-flex justify-content-between">
                 <img src="images/icon-facebook.svg" class="rounded " alt="..." width="25" height="25">
