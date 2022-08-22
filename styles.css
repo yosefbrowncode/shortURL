@@ -8,6 +8,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 600;
+    color: hsl(255, 11%, 22%) !important;
 }
 
 .subHeadText{
@@ -21,7 +22,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    width: 100px;
+    width: 120px;
     background-color: hsl(180, 66%, 49%) !important;
     color: white;
     border-radius: 40px;
@@ -30,12 +31,14 @@
 
 .headerFormSect{
     margin-left: auto;
+    display: flex;
 }
 
 .homeHeader{
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
     font-weight: 600;
+    color: hsl(255, 11%, 22%);
     
 }
 
@@ -67,8 +70,9 @@
 }
 
 .bottomContainer{
-    background-color: #f5f5f5;
+    background-color: #eff1f7;
     margin-top: 190px;
+    padding-bottom: 135px;
 }
 
 .shortForm{
@@ -86,16 +90,278 @@ border: none;
 
 }
 
+.lineBehind{
+    height: 8px;
+    background-color: hsl(180, 66%, 49%);
+    margin-top: -215px;
+    width: 50%;
+   
+    
+}
+
+.lineBehindUp{
+    height: 600px;
+    background-color: hsl(180, 66%, 49%);
+    margin-top: -900px;
+    width: 8px;
+    
+
+
+    
+}
 
 
 .cardShort{
     height: 180px;
     border-radius: 20px;
-    background-color: hsl(257, 7%, 63%);
+    background-color: #5f5678;
     background-image: url('images/bg-shorten-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    top: -80px;
+}
+
+.preFooter{
+    height: 265px;
+    background-color: #5f5678 !important;
+    background-image: url('images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textAdvance{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(0, 0%, 58%);
+    width: 600px
+
+}
+
+.cardBottomText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(0, 0%, 58%);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.cardBottomTtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: hsl(255, 11%, 22%) !important;
+}
+
+.iconDiv{
+    background-color: hsl(255, 11%, 22%);
+    width: fit-content;
+    padding: 25px;
+    border-radius: 100%;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+.advancedCard{
+    height: 300px;
+    border-radius: 8px;
+    width: 25rem;
+    z-index: 50;
+}
+
+.card1{
+margin-top: -50px;
+}
+
+.card2{
+margin-top: 50px;
+}
+
+.footerTextBold{
+    padding: 0 !important;
+}
+.marginStart{
+    margin-left: 3rem;
 }
 
 
+@media only screen and (max-width: 1400px) {
+    .advancedCard{
+        width: auto;
+        height: auto;
+    }
+    .lineBehind{
+        margin-top: -242px;
+    }
+    
+  }
+  @media only screen and (max-width: 1200px) {
+
+    .lineBehind{
+        margin-top: -270px;
+    }
+    
+  }
+  @media only screen and (max-width: 992px) {
+    .advancedCard{
+        text-align: center;
+        width: 30rem;
+        height: auto;
+    }
+    .card1{
+        margin-top: none;
+    }
+    .card3{
+        margin-top: 80px;
+    }
+    .card2{
+        margin-top: 80px;
+    }
+    .cardBottomTtitle{
+        padding-left: 0px;
+    }
+    .iconDiv{
+        margin: auto;
+        margin-top: -50px;
+    }
+    .containerHome {
+        margin-top: 0;
+    }
+    .moreThanDiv{
+        margin-top: 70px !important;
+        text-align: center;
+    }
+    .homeHeader{
+        font-size: 64px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 990px) {
+
+    .collapseMenu{
+        background-color: #4b3f6b ;
+        border-radius: 12px;
+        color: white !important;
+        text-align: center;
+    }
+    .marginStart{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .headerFormSect{
+       display: block;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+    .mobileSub{
+        color: white !important;
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .signUpBtn{
+        margin-top: 18px;
+        width: 60%;
+        height: 60px;
+    }
+    .hrLine{
+        width: 90%;
+       text-align: center;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .advancedCard{
+        width: auto;
+        height: auto;
+    }
+    .cardShort{
+        height: 225px;
+    }
+    .textAdvance{
+        width: auto;
+    }
+    .signUpBtn{
+        width: 80% !important;
+    }
+    
+  }
+
+  @media only screen and (max-width: 576px){
+    .advancedCard{
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    .homeHeader{
+        font-size: 48px;
+    }
+    .changeContainerSmall{
+        width: 90%;
+    }
+    .boostText{
+        font-size: 30px;
+    }
+
+    .moreThanDiv{
+        margin-top: 40px !important;
+        text-align: center;
+    }
+    .advancedTextHeader{
+        font-size: 36px;
+    }
+     .footerMiddleText{
+        margin: auto;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .bottomHeader{
+        margin-right: 0px !important;
+    }
+   
+    
+  }
+
+ 
+  
+  @media only screen and (max-width: 425px){
+ 
+    .homeHeader{
+        font-size: 40px;
+    }
+    .homeText{
+        font-size: 20px;
+    }
+   
+    
+    .boostText{
+        font-size: 24px;
+    }
+    .preFooter{
+        height: 290px;
+    }
+    .advancedTextHeader{
+        font-size: 28px;
+    }
+   
+    
+  }
+
+  @media only screen and (max-width: 350px){
+ 
+    .homeHeader{
+        font-size: 32px;
+    }
+    .homeText{
+        font-size: 18px;
+    }
+    .boostText{
+        font-size: 21px;
+    }
+    .advancedTextHeader{
+        font-size: 26px;
+    }
+  }

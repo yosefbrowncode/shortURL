@@ -15,10 +15,10 @@
     <title>URL Shortening</title>
   </head>
   <body>
-      <div class="container-fluid g-0" >
+      <div class="container-fluid g-0" style="overflow: hidden;">
 
 
-      <div class="container mb-5 ">
+      <div class="container mb-5 changeContainerSmall ">
         <nav
         class="navbar navbar-expand-lg navbar-light bg-light navColor mt-4"
       >
@@ -35,54 +35,57 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse collapseMenu" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item ms-5 ">
-                <a class="nav-link subHeadText    aria-current="page" href="#">Features</a>
+              <li class="nav-item marginStart">
+                <a class="nav-link subHeadText mobileSub    aria-current="page" href="#">Features</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link subHeadText" href="#">Pricing</a>
+                <a class="nav-link subHeadText mobileSub" href="#">Pricing</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link subHeadText" href="#">Resources</a>
+                <a class="nav-link subHeadText mobileSub" href="#">Resources</a>
               </li>
               
             </ul>
-            <form class="d-flex headerFormSect">
-              <a class="nav-link subHeadText" href="#">Login</a>
+            <div class="hrLine mx-auto">
+                <hr>
+            </div>
+            <form class=" headerFormSect">
+              <a class="nav-link subHeadText mobileSub" href="#">Login</a>
               <button class="btn btn-outline-success signUpBtn" type="submit">Sign Up</button>
             </form>
           </div>
         </div>
       </nav>
       <div class="container containerHome ">
-          <div class="row ">
-              <div class="col-6 my-auto">
+          <div class="row g-0 g-sm-4 ">
+              <div class="col-lg-6 my-auto order-lg-1 order-2 moreThanDiv">
                   <h1 class="homeHeader">
                       More than just shorter links
                   </h1>
-                  <p class="homeText">Build your brands recognition and get detailed insights on how your links are performing.</p>
+                  <p class="homeText">Build your brand's recognition and get detailed insights on how your links are performing.</p>
                   <button class="btn btn-outline-success getStarted" type="submit">Get Started</button>
               </div>
-              <div class="col-6">
-                <img src="images/illustration-working.svg" class="img-fluid" alt="..." >
+              <div class="col-lg-6 order-lg-2 order-1">
+                <img src="images/illustration-working.svg" class="img-fluid" alt="..." style="max-width: 130%;" >
               </div>
           </div>
       </div>
       </div>
       
       <!-- Bottom Grey Container -->
-      <div class="container-fluid bottomContainer vh-100">
-          <div class="container">
+      <div class="container-fluid bottomContainer">
+          <div class="container changeContainerSmall">
             <div class="card cardShort border-0">
                 <div class="card-body h-100 ">
                     <div class="row d-flex justify-content-center h-100">
-                        <div class="col-9 my-auto
+                        <div class="col-11 col-sm-10 col-md-8 col-xl-9 my-auto
                         ">
                           <input class="form-control form-control-lg shortForm " type="text" placeholder="Shorten a link here" aria-label=".form-control-lg example">
                         </div>
-                        <div class="col-2 my-auto">
-                          <button type="button" class="btn btn-primary w-100 shortBtn">Shorten it!</button>
+                        <div class="col-11 col-sm-10 col-md-3 col-xl-2 my-auto ">
+                          <button type="button" class="btn btn-primary w-100 shortBtn ">Shorten it!</button>
                         </div>
 
                     </div>
@@ -91,37 +94,98 @@
               </div>
 
           </div>
+          <div class="container text-center mt-0 mt-md-3 mt-xl-5 pb-4 changeContainerSmall">
+            <h2 class="headerText mt-2 advancedTextHeader" style="color:hsl(255, 11%, 22%)">Advanced Statistics</h2>
+            <p class="textAdvance mt-3 mx-auto">Track how your links are performing across the web with our advanced Statistics dashboard</p>
+          </div>
+          <div class="container mt-5 changeContainerSmall">
+              
+              <div class="row pt-5 g-0 g-sm-4">
+                  <div class="col-lg-4 col-xl-4 col-xxl-4 position-relative ">
+                    <div class="card border-0 mx-auto advancedCard card1"">
+                        <div class="card-body">
+                            <div class="iconDiv">
+                                <img src="images/icon-brand-recognition.svg" alt="">
+                            </div>
+                                    <h5 class="card-title cardBottomTtitle mb-3 mt-5">Brand Recognition</h5>
+                                    <p class="card-text cardBottomText">Boost your brand recognition with each click. Generec links don't mean a thing
+                                        . Branded links help instil confidence in your content.
+                                    </p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card border-0 mx-auto advancedCard card3 position-relative">
+                        <div class="card-body">
+                            <div class="iconDiv">
+                                <img src="images/icon-detailed-records.svg" alt="">
+                            </div>
+                                    <h5 class="card-title cardBottomTtitle mb-3 mt-5">Detailed Records</h5>
+                                    <p class="card-text cardBottomText">Gain insights into who is clicking your links. Knowing when
+                                        and where people engage with your content helps inform better decisions.
+                                    </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-xxl-4 position-relative">
+                    <div class="card border-0 mx-auto advancedCard card2"">
+                        <div class="card-body">
+                            <div class="iconDiv">
+                                <img src="images/icon-fully-customizable.svg" alt="">
+                            </div>
+                                    <h5 class="card-title cardBottomTtitle mb-3 mt-5">Fully Customizable</h5>
+                                    <p class="card-text cardBottomText">Improve brand awareness and content discovertability through Customizable
+                                        links, supercharging audience engagement.
+                                    </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="lineBehind mx-auto d-none d-lg-block">
+                  
+                </div>
+                <div class="lineBehindUp mx-auto d-block d-lg-none p-0">
+                 
+                </div>
+              </div>
+          </div>
       </div>
+      <nav class="navbar sticky-bottom  navbar-dark bg-dark preFooter d-flex justify-content-center">
+        <div class="container-fluid text-center row">
+          <h2 class="headerText boostText" style="color: white !important;">Boost your links today</h2>
+          <button class="btn btn-outline-success getStarted mx-auto" type="submit">Get Started</button>
+
+        </div>
+      </nav>
       <nav class="navbar sticky-bottom navbar-light bg-light footerBottom">
-        <div class="container mt-5 justify-content-between mb-5">
-            <div class="row w-100 justify-content-between">
-            <div class="col-4">
-                <a   class="navbar-brand headerText text-white " href="#">Shortly</a>
+        <div class="container mt-5 d-flex justify-content-center mb-5 changeContainerSmall ">
+            <div class="row w-100 ">
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0 footerMiddleText">
+                <a style="color: white !important;"  class="navbar-brand headerText text-white bottomHeader" href="#">Shortly</a>
             </div>
-            <div class="col-2">
-                <a class="nav-link subHeadText text-white fw-bolder ps-0"    aria-current="page" href="#">Features</a>
-                <p class="subHeadText mt-4">Link Shortening</p>
+            <div class="col-8 col-sm-3 col-lg-2 footerMiddleText">
+                <a class="nav-link subHeadText text-white fw-bolder  footerTextBold"    aria-current="page" href="#">Features</a>
+                <p class="subHeadText mt-3 mt-sm-4">Link Shortening</p>
                 <p class="subHeadText ">Branding Links</p>
                 <p class="subHeadText ">Analytics</p>
             </div>
-            <div class="col-2">
-                <a class="nav-link subHeadText text-white fw-bolder ps-0" href="#">Pricing</a>
-                <p class="subHeadText mt-4">Blog</p>
+            <div class="col-8 col-sm-3 col-lg-2 footerMiddleText">
+                <a class="nav-link subHeadText text-white fw-bolder  footerTextBold" href="#">Pricing</a>
+                <p class="subHeadText mt-3 mt-sm-4">Blog</p>
                 <p class="subHeadText ">Developers</p>
                 <p class="subHeadText ">Support</p>
             </div>
-            <div class="col-2">
-                <a class="nav-link subHeadText text-white fw-bolder ps-0" href="#">Resources</a>
-                <p class="subHeadText mt-4">About</p>
+            <div class="col-8 col-sm-3 col-lg-2 footerMiddleText">
+                <a class="nav-link subHeadText text-white fw-bolder  footerTextBold" href="#">Resources</a>
+                <p class="subHeadText mt-3 mt-sm-4">About</p>
                 <p class="subHeadText ">Our Team</p>
                 <p class="subHeadText ">Careers</p>
                 <p class="subHeadText ">Contact</p>
             </div>
-            <div class="col-2 d-flex justify-content-between">
-                <img src="images/icon-facebook.svg" class="rounded " alt="..." width="25" height="25">
-<img src="images/icon-twitter.svg" class="rounded " alt="..." width="25" height="25">
-<img src="images/icon-pinterest.svg" class="rounded " alt="..." width="25" height="25">
-<img src="images/icon-instagram.svg" class="rounded " alt="..." width="25" height="25">
+            <div class="col-6 col-sm-3 col-lg-2 d-flex justify-content-between footerMiddleText">
+                <img src="images/icon-facebook.svg" class="rounded mt-2 " alt="..." width="25" height="25">
+                <img src="images/icon-twitter.svg" class="rounded mt-2 " alt="..." width="25" height="25">
+                <img src="images/icon-pinterest.svg" class="rounded mt-2" alt="..." width="25" height="25">
+                <img src="images/icon-instagram.svg" class="rounded mt-2" alt="..." width="25" height="25">
             </div>
     
         </div>
