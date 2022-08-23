@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>URL Shortening</title>
+    <title>Shortly</title>
   </head>
   <body>
       <div class="container-fluid g-0" style="overflow: hidden;">
@@ -53,7 +53,7 @@
             </div>
             <form class=" headerFormSect">
               <a class="nav-link subHeadText mobileSub" href="#">Login</a>
-              <button class="btn btn-outline-success signUpBtn" type="submit">Sign Up</button>
+              <button class="btn btn-outline-success signUpBtn btnHover" type="submit">Sign Up</button>
             </form>
           </div>
         </div>
@@ -65,7 +65,7 @@
                       More than just shorter links
                   </h1>
                   <p class="homeText">Build your brand's recognition and get detailed insights on how your links are performing.</p>
-                  <button class="btn btn-outline-success getStarted" type="submit">Get Started</button>
+                  <button class="btn btn-outline-success getStarted btnHover" type="submit">Get Started</button>
               </div>
               <div class="col-lg-6 order-lg-2 order-1">
                 <img src="images/illustration-working.svg" class="img-fluid" alt="..." style="max-width: 130%;" >
@@ -83,9 +83,10 @@
                         <div class="col-11 col-sm-10 col-md-8 col-xl-9 my-auto
                         ">
                           <input id="shortForm" class="form-control form-control-lg shortForm " type="text" placeholder="Shorten a link here" aria-label=".form-control-lg example">
+                          <p id="errorMessage" class="position-absolute text-danger text-bold errorMessage"></p>
                         </div>
                         <div class="col-11 col-sm-10 col-md-3 col-xl-2 my-auto ">
-                          <button  type="button" class="btn btn-primary w-100 shortBtn " onclick="littleLink()">Shorten it!</button>
+                          <button  type="button" class="btn btn-primary w-100 shortBtn btnHover " onclick="littleLink(); this.blur();">Shorten it!</button>
                         </div>
 
                     </div>
@@ -155,7 +156,7 @@
       <nav class="navbar sticky-bottom  navbar-dark bg-dark preFooter d-flex justify-content-center">
         <div class="container-fluid text-center row">
           <h2 class="headerText boostText" style="color: white !important;">Boost your links today</h2>
-          <button class="btn btn-outline-success getStarted mx-auto" type="submit">Get Started</button>
+          <button class="btn btn-outline-success getStarted mx-auto btnHover" type="submit">Get Started</button>
 
         </div>
       </nav>
