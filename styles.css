@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .navColor{
     background-color: white !important;
@@ -7,7 +7,7 @@
 .headerText{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     color: hsl(255, 11%, 22%) !important;
 }
 
@@ -15,13 +15,37 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: hsl(0, 0%, 58%) 
+    color: hsl(0, 0%, 58%) !important; 
+    
+}
+.subHeadText2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white !important;
+}
+.subHeadText3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(0, 0%, 58%) !important;
+}
+.subHeadText:hover{
+    color: black !important;
+    cursor: pointer;
+}
+.subHeadText3:hover{
+    
+    cursor: pointer;
+}
+.footIcon:hover{
+cursor: pointer;
 }
 
 .signUpBtn{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     width: 120px;
     background-color: hsl(180, 66%, 49%) !important;
     color: white;
@@ -37,7 +61,7 @@
 .homeHeader{
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
-    font-weight: 600;
+    font-weight: 700;
     color: hsl(255, 11%, 22%);
     
 }
@@ -56,6 +80,7 @@
 .getStarted{
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 24px;
     width: 200px;
     height: 60px;
@@ -85,6 +110,7 @@ height: 65px !important;
 background-color: hsl(180, 66%, 49%) !important;
 font-family: 'Poppins', sans-serif;
 font-size: 24px;
+font-weight: 600;
 border-radius: 10px;
 border: none;
 
@@ -109,7 +135,34 @@ border: none;
 
     
 }
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.linkCard{
+    border-radius: 8px;
 
+    overflow: hidden;
+}
+.linkBtn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 125px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(180, 66%, 49%) !important;
+    font-weight: 600;
+    border: none;
+
+}
+.longLink{
+    margin-left: 25px;
+}
+.coloredLink{
+    color: hsl(180, 66%, 49%) !important;
+    margin-left: auto;
+    margin-right: 30px;
+}
 
 .cardShort{
     height: 180px;
@@ -151,7 +204,7 @@ border: none;
 .cardBottomTtitle{
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 700;
     padding-left: 20px;
     color: hsl(255, 11%, 22%) !important;
 }
@@ -247,6 +300,7 @@ margin-top: 50px;
         border-radius: 12px;
         color: white !important;
         text-align: center;
+        margin-top: 15px;
     }
     .marginStart{
         margin-left: 0;
