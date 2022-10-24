@@ -40,7 +40,7 @@ function littleLink() {
         </div>
         <div class="col-12 d-block  d-lg-none"><hr></div>
           <div class="col colDisplay">
-          <a href="${shortLink}"><h4 id="shorty" class="my-auto coloredLink">${shortLink}</h4></a>
+          <h4 id="shorty" class="my-auto coloredLink"><a href="${shortLink}" style="text-decoration: none;">${shortLink}</a></h4>
           <button  type="button" class="btn btn-primary float-right linkBtn me-0 me-lg-4 btnHover" onClick="copyLink(this); this.blur();" >Copy</button>
           </div>
         </div>
